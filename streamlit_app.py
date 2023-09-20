@@ -73,8 +73,8 @@ if streamlit.button("Get Furit Load List"):
     my_cnx.close()
     streamlit.dataframe(my_data_rows)
 
-# don't run anything past here while we troubleshoot
-streamlit.stop()
+# # don't run anything past here while we troubleshoot
+# streamlit.stop()
 
 
 # Allow the end user to add a fruit to the list
